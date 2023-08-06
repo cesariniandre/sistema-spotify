@@ -1,0 +1,18 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Obter Capa do Álbum</title>
+</head>
+<body>
+  <h1>Obter Capa do Álbum do Spotify</h1>
+  <form id="spotifyForm">
+    <label for="spotifyUrl">URL do Álbum ou Música do Spotify:</label>
+    <input type="text" id="spotifyUrl" required>
+    <button type="button" onclick="authenticateSpotify()">Obter Capa</button>
+  </form>
+  <div id="albumCover"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
